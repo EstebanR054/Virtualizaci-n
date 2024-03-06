@@ -6,62 +6,47 @@
     <title>GITHUB</title>
 </head>
 <body>
-    <div class="text">
-    <h1>Comandos de Git</h1>
-    <br><br>
-    <div>
-    <ul>
-    <h2>Git init</h2>
-    <p>Inicia un nuevo repositorio</p>
-    <h2>Git clone</h2>
-    <p>Clona un repisotorio exitente desde la ubicacion remote</p>
-    <h2>Git Add .</h2>
-    <p>Agrega todos los archivos en el area de preparación</p>
-    <h2>Git Commit -m</h2>
-    <p>Crea un comentario con los cambios que se encuentran en el area de preparación</p>
-    <h2>Git status</h2>
-    <p>Muestra el estado actual del repositorio, incluyendo los archivos modificados </p>
-    <h2>Git push</h2>
-    <p>Envia los Commit locales al repositorio</p>
-    <h2>Git branch</h2>
-    <p>Muestra la rama actual en la que se encuentra en el repositorio</p>
-    <h2>Git pull</h2>
-    <p>Obtiene los ultimos cambios del repositorioremoto y los fusiona con tu rama local</p>
-    <h2>Git log </h2>
-    <p>Muestra u registro de los commits, mostrando el historial de cambios realizados en el repositorio</p>
-    <h2>Git remote add</h2>
-    <p>Conecta el repositorio local a un repositorio remoto especificado por la URL</p>
-    <h2>Git clean </h2>
-    <p>Elimina los archivos sin seguimineto de tu directorio de trabajo</p>
-    <h2>Git confit --global user.mane </h2>
-    <p>Nos genera el usuario el cual esta trabajando en dicho repositorio</p>
-    <h2>Git confit --global user.email </h2>
-    <p>Nos genera el correo el cual esta trabajando en dicho repositorio</p>
-    </div>
-    <style>
-        body{
-            padding: 0;
-            background-color: rgba(0, 0, 0, 0.827);
-            margin: 100px;
-        }
-
-        h1{
-            text-align: center;
-            font-size: xxx-large;
-
-        }
-
-        h2{
-            font-size: x-large;
-         
+    <div class="main">
+        <div class="menu">
+            <a href="/Contenido/que_es.html" >¿Qué es la Virtualización?</a>
+            <a href="/Contenido/como_funciona.html" >¿Cómo Funciona la Virtualización?</a>
+            <a href="/Contenido/ejemplos.html">Ejemplos donde se aplique la virtualización</a>
+            <a href="/Contenido/grafico.html" >Gráfico</a>
+            <a href="/Contenido/importancia.html" >¿Es importante la virtualización?</a>
+            <a href="/Contenido/ven_y_desv.html">Ventajas y Desvantajas</a>
+        </div>
+        <div class="contenido">
+            <h2>¿Qué es la virtualización?</h2><hr>
+            <p>La virtualización utiliza un software especializado, llamado hipervisor,
+                para crear varias instancias en la nube o máquinas virtuales en un solo
+                equipo físico.<br><br>
             
-        }
+            <strong>Instancias en la nubre o máquinas virtuales: </strong>Después de instalar
+            el software de virtualización en la computadora, podrá crear una o más máquinas
+            virtuales. Se puede acceder a las máquinas virtuales de la misma manera que se
+            accede a otras aplicaciones en la computadora. La computadora se llama host y la
+            máquina virtual se llama huésped. Varios huéspedes se pueden ejecutar en el host.
+            Cada huésped tiene su propio sistema operativo, que puede ser el mismo o diferente
+            del sistema operativo del host.<br>
 
-        .text{
-            color: white;
-        }
+            Desde la perspectiva del usuario, la máquina virtual funciona como un servidor típico.
+            Tiene ajustes, configuraciones y aplicaciones instaladas. Los recursos de computación,
+            como las unidades centrales de procesamiento (CPU), la memoria de acceso aleatorio (RAM)
+            y el almacenamiento aparecen de la misma manera que en un servidor físico. También es
+            posible configurar y actualizar los sistemas operativos huéspedes y sus aplicaciones
+            según sea necesario sin afectar al sistema operativo host.<br><br>
         
-
-    </style>
+            <strong>Hipervisores: </strong>El hipervisor es el software de virtualización que se instala
+            en la máquina física. Es una capa de software que actúa como intermediario entre las
+            máquinas virtuales y el hardware subyacente o el sistema operativo del host. El hipervisor
+            coordina el acceso al entorno físico de manera que varias máquinas virtuales tengan acceso
+            a su propia cuota de recursos físicos.<br>
+        
+            Por ejemplo, si la máquina virtual requiere recursos de computación, como potencia de
+            procesamiento de la computadora, la solicitud se dirige primero al hipervisor. El hipervisor
+            transmite entonces la solicitud al hardware subyacente, que realiza la tarea.</p>
+        </div>
+        
+    </div>
 </body>
 </html>
